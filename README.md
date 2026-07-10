@@ -35,4 +35,26 @@ library but ran into errors, so I switched to `ortools` (using the SCIP solver),
 
 ![Ambulance stations map](images/discrete_ambulance_stations_map.png)
 
-The plot represents neighborhoods and ambulance stations during 
+The plot represents neighborhoods and ambulance stations using their spatial coordinates (via MDS (Multidimensional Scaling)), with dotted lines showing the assignment of each neighborhood to its nearest station.
+
+## Libraries
+
+- Python
+- Numpy
+- Pandas
+- SciPy
+- PuLP
+- OR-Tools
+- Matplotlib
+- Scikit-learn
+
+## How to run
+
+```bash
+git clone https://github.com/MartaSantome/Optimization-and-Analytics.git
+cd Optimization-and-Analytics
+pip install numpy pandas scipy pulp ortools matplotlib scikit-learn jupyter
+jupyter notebook
+```
+
+Each notebook is self-contained and can be run independently.
